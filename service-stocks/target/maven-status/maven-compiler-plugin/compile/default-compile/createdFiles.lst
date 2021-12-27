@@ -1,0 +1,6 @@
+com/culturalfund/servicestock/repo/StockRepo.class
+com/culturalfund/servicestock/api/StockController.class
+com/culturalfund/servicestock/ServiceStockApplication.class
+com/culturalfund/servicestock/service/StockService.class
+com/culturalfund/servicestock/api/dto/StockDto.class
+com/culturalfund/servicestock/repo/model/Stock.class

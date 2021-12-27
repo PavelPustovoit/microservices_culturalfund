@@ -1,0 +1,6 @@
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/service/StockService.java
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/repo/model/Stock.java
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/api/StockController.java
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/ServiceStockApplication.java
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/repo/StockRepo.java
+/home/pavel/Documents/TPS/service-stock/src/main/java/com/culturalfund/servicestock/api/dto/StockDto.java
