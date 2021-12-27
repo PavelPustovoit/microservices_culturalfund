@@ -1,0 +1,7 @@
+com/culturalfund/servicefeedback/repo/FeedbackRepo.class
+com/culturalfund/servicefeedback/ServiceFeedbackApplication.class
+com/culturalfund/servicefeedback/repo/model/Status.class
+com/culturalfund/servicefeedback/api/dto/FeedbackDto.class
+com/culturalfund/servicefeedback/api/FeedbackController.class
+com/culturalfund/servicefeedback/service/FeedbackService.class
+com/culturalfund/servicefeedback/repo/model/Feedback.class

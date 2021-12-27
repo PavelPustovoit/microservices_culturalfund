@@ -1,0 +1,7 @@
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/api/dto/FeedbackDto.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/ServiceFeedbackApplication.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/service/FeedbackService.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/api/FeedbackController.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/repo/model/Feedback.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/repo/model/Status.java
+/home/pavel/Documents/TPS/service-feedback/src/main/java/com/culturalfund/servicefeedback/repo/FeedbackRepo.java

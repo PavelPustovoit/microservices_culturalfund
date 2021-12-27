@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-feedback
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8081
+      nodePort: 31001
+  selector:
+    app: service-feedback
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-feedback
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-feedback
+  template:
+    metadata:
+      labels:
+        app: service-feedback
+    spec:
+      containers:
+        - name: service-feedback 
+          image: pavelpustovoit/service-feedbacks
+          ports:
+            - name: http
+              containerPort: 8081
+
+---
