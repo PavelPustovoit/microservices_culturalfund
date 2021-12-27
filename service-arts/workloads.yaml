@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: service-arts
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 8080
+      nodePort: 31000
+  selector:
+    app: service-arts
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: service-arts
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: service-arts
+  template:
+    metadata:
+      labels:
+        app: service-arts
+    spec:
+      containers:
+        - name: service-arts 
+          image: pavelpustovoit/service-arts
+          ports:
+            - name: http
+              containerPort: 8080
+
+---
