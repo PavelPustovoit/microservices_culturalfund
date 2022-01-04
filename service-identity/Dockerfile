@@ -1,8 +1,0 @@
-FROM openjdk:17-alpine
-
-WORKDIR /opt/server
-COPY ./target/service-identity-0.0.1-SNAPSHOT.jar identity.jar
-
-EXPOSE 8082
-
-ENTRYPOINT ["java", "-jar", "identity.jar"]
