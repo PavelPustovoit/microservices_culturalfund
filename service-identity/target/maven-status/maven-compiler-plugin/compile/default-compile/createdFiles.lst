@@ -1,0 +1,7 @@
+com/culturalfund/serviceidentity/repo/UserRepo.class
+com/culturalfund/serviceidentity/dto/UserDto.class
+com/culturalfund/serviceidentity/service/UserService.class
+com/culturalfund/serviceidentity/repo/model/UserType.class
+com/culturalfund/serviceidentity/ServiceIdentityApplication.class
+com/culturalfund/serviceidentity/repo/model/User.class
+com/culturalfund/serviceidentity/api/UserController.class
